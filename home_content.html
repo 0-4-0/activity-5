@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        color: #333;
+        overflow-x: hidden;
+      }
+
+      .hero-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .hero-image {
+        width: 50%;
+        max-width: 1000px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .hero-content {
+        padding: 40px 20px;
+        max-width: 800px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin: 0 0 10px 0;
+      }
+
+      .tagline {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 30px;
+      }
+
+      .cta-button {
+        background-color: #3498db;
+        color: white;
+        text-decoration: none;
+        padding: 15px 40px;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 1.1rem;
+        transition: background 0.3s ease;
+        display: inline-block;
+      }
+
+      .cta-button:hover {
+        background-color: #2980b9;
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 30px;
+        width: 100%;
+        max-width: 1000px;
+        margin-top: 50px;
+      }
+
+      .feature-item h3 {
+        color: #3498db;
+        margin-bottom: 10px;
+      }
+
+      .feature-item p {
+        font-size: 0.95rem;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero-container">
+      <img
+        src="https://img.freepik.com/free-photo/closeup-shot-golden-watch-isolated_181624-28492.jpg?semt=ais_rp_50_assets&w=740&q=80"
+        class="hero-image"
+        alt="Featured Product"
+      />
+
+      <div class="hero-content">
+        <h1>Lumina Essentials</h1>
+        <p class="tagline">Curated Quality, Delivered to Your Door.</p>
+        <a href="#" class="cta-button">Shop Collection</a>
+      </div>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="#000000"
+        width="30"
+        viewBox="0 0 384 512"
+      >
+        <path
+          d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"
+        />
+      </svg>
+
+      <div class="features">
+        <div class="feature-item">
+          <h3>Premium Selection</h3>
+          <p>Only the finest materials and designs make it into our store.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Fast Shipping</h3>
+          <p>Expertly packaged and delivered straight to your doorstep.</p>
+        </div>
+        <div class="feature-item">
+          <h3>24/7 Support</h3>
+          <p>Our team is here to help you with any questions at any time.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

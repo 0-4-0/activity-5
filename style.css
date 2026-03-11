@@ -1,0 +1,85 @@
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap'); 
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #DFDBE5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='Artboard-5' fill='%239C92AC' fill-opacity='0.37' fill-rule='nonzero'%3E%3Cpath d='M6 18h12V6H6v12zM4 4h16v16H4V4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.header {
+  padding: 20px;
+  background: white;
+  text-align: center;
+}
+
+.nav {
+  background-color: rgb(61, 61, 61);
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: lightgrey;
+  padding: 1rem 1.5rem;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.page {
+  flex-grow: 1;
+  display: flex;
+  margin: 20px auto;
+  width: 95%;
+  gap: 20px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  height: fit-content;
+  padding: 20px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: slategray;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  transition: 0.2s;
+}
+
+.main {
+  flex-grow: 1;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px lightgray;
+  line-height: 1.6;
+}
+
+.footer {
+  height: 60px;
+  background: rgb(61, 61, 61);
+  margin-top: auto; 
+}
+
+.footer p {
+  color: white;
+  padding: 20px;
+  
+}

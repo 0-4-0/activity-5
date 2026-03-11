@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Catalog</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .product-card h3 {
+      margin: 15px 0 5px;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #27ae60;
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/photo-1524592094714-0f0654e20314.jpg" alt="Classic Watch">
+      <h3>Classic Watch</h3>
+      <p class="price">4,000 PHP</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/photo-1590658268037-6bf12165a8df.jpg" alt="Wireless Earbuds">
+      <h3>Wireless Earbuds</h3>
+      <p class="price">5,000 PHP</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/smartspeaker.jpg" alt="Smart Speaker">
+      <h3>Smart Speaker</h3>
+      <p class="price">2,500 PHP</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/photo-1548036328-c9fa89d128fa.jpg" alt="Leather Backpack">
+      <h3>Leather Backpack</h3>
+      <p class="price">3,000 PHP</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/photo-1511467687858-23d96c32e4ae.jpg" alt="Mechanical Keyboard">
+      <h3>Mechanical Keyboard</h3>
+      <p class="price">7,500 PHP</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/187498_2025.jpg" alt="Polaroid Camera">
+      <h3>Polaroid Camera</h3>
+      <p class="price">4,999 PHP</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+
+</body>
+</html>
